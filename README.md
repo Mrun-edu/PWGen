@@ -50,8 +50,13 @@ Pass the name as an argument:
 
 ```bash
 python3 sifre.py alice
+
 or
-alias pwgen='/File/Path/sifre.py'
+
+echo "alias pwgen='/File/Path/sifre.py'" >> ~/.bashrc
+source ~/.bashrc (or which shell ur using)
+now you can just type: pwgen emirhan 
+or just pwgen
 ```
 
 Output:
